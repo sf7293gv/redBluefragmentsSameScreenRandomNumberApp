@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.setFragmentResultListener(RANDOM_NUMBER_GENERATED, this) {
             requestKey, bundle ->
                 // swap out red fragment for blue
-            supportFragmentManager.beginTransaction().add(R.id.fragmentContainerView, BlueFragment.newInstance()).addToBackStack("BLUE").commit()
+            supportFragmentManager.beginTransaction().add(R.id.red_fragment_container, BlueFragment.newInstance()).addToBackStack("BLUE").commit()
 
             // pause red fragment, add blue fragment on top of it
 
