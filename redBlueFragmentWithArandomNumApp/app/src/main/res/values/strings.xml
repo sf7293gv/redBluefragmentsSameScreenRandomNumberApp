@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">redBlueFragments_RandomNumber</string>
+    <string name="hello_red_fragment">This is the red fragment</string>
+    <string name="hello_blue_fragment">This is the blue fragment</string>
+    <string name="send_random_number_to_the_blue_fragment">Send Random Number to the blue fragment</string>
+
+</resources>
